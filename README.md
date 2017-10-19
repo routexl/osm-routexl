@@ -1,6 +1,6 @@
 # OSM-RouteXL
 
-![screenshot](https://raw.github.com/routexl/osm-routexl/master/preview.png)
+![screenshot](https://raw.github.com/routexl/osm-routexl/master/screenshot.png)
 
 OSM-RouteXL is bright and light style for OpenStreetMap. It's based on [OSM Bright][] and inspired by [Pandonia][] and [Blossom][]. The style is written in the [Carto][] language.
 
