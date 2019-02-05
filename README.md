@@ -9,7 +9,7 @@ This map style is mostly white and light grey, to put the focus on the content y
 ## Setup
 
 1. Get and install [OSM Bright][]
-2. Replace `palette.mss` with the OSM-RouteXL version of that file
+2. Replace the .mss style files with the OSM-RouteXL version of that file
 3. Done
 
 [OpenStreetMap]: https://www.openstreetmap.org/
