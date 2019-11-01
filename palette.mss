@@ -1,5 +1,5 @@
 /* ****************************************************************** */
-/* OSM RouteXL for Imposm                                             */
+/* OSM ROUTEXL for Imposm                                             */
 /* ****************************************************************** */
 
 /* For basic style customization you can simply edit the colors and
@@ -23,36 +23,12 @@ Map {
 }
 
 /* set up font sets for various weights and styles */
-@sans_lt:       "Open Sans Regular", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-                "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-                "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
-
-
-@sans_lt_italic:    "Open Sans Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
-                "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-                "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-                "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
-
-
-@sans:          "Open Sans Semibold", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-                "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-                "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
-
-@sans_italic:   "Open Sans Semibold Italic",  "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
-                "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-                "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-                "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
-
-
-@sans_bold:  "Open Sans Bold", "DejaVu Sans Bold", "Arundina Sans Bold", "Padauk Bold", "Mukti Narrow Bold", "TSCu_Paranar Bold", "Mallige Bold",
-             "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-             "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-             "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
-
-@sans_bold_italic:  "Open Sans Bold Italic","DejaVu Sans Bold Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
-                "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
-                "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
-                "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";
+@sans_lt: "Open Sans Regular";
+@sans_lt_italic: "Open Sans Oblique";
+@sans: "Open Sans Semibold";
+@sans_italic: "Open Sans Semibold Italic";
+@sans_bold: "Open Sans Bold";
+@sans_bold_italic: "Open Sans Bold Italic";
 
 /* Some fonts are larger or smaller than others. Use this variable to
    globally increase or decrease the font sizes. */
@@ -67,7 +43,7 @@ Map {
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FBFBFB;
+@land:              #FFFFFF;
 @water:             #CCE4FB;
 @grass:             @land;
 @beach:             @land;
@@ -76,7 +52,7 @@ Map {
 @wooded:            @grass;
 @agriculture:       @grass;
 
-@building:          #DDDDDD;
+@building:          #CCCCCC;
 @hospital:          @building;
 @school:            @building;
 @sports:            @building;
@@ -100,23 +76,23 @@ Map {
  *         inner fill (inline).
  */
 
-@motorway_line:     #EEE;
+@motorway_line:     #CCC;
 @motorway_fill:     #FFF;
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #EEE;
+@trunk_line:        #CCC;
 @trunk_fill:        #FFF;
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #EEE;
+@primary_line:      #CCC;
 @primary_fill:      #FFF;
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    #EEE;
+@secondary_line:    #CCC;
 @secondary_fill:    #FFF;
 @secondary_case:    @secondary_line * 0.9;
 
-@standard_line:     #EEE;
+@standard_line:     #CCC;
 @standard_fill:     #FFF;
 @standard_case:     @land * 0.9;
 
